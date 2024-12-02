@@ -45,6 +45,22 @@ a:focus {
     -moz-transition: ease-out 0.5s;
 }
 
+.btn.btn-custom.btnblog {
+    bottom: 20px;
+    right: 20px;
+    padding:5px 30px;
+    text-align: center; 
+    font-size: 16px;
+    font-weight: 500;
+    color: #ffffff;
+    background: #E81C2E;
+    border: none;
+    border-radius: 60px;
+    box-shadow: inset 0 0 0 0 #202C45;
+    transition: ease-out 0.5s;
+    -webkit-transition: ease-out 0.5s;
+    -moz-transition: ease-out 0.5s;
+}
 .btn.btn-custom:hover {
     color: #E81C2E;
     background: #202C45;
@@ -229,6 +245,7 @@ a:focus {
 .nav-bar {
     position: relative;
     background: #202C45;
+    border-bottom: #E81C2E 2px solid;
 }
 
 .nav-bar.nav-sticky {
@@ -516,10 +533,9 @@ a:focus {
 .page-header {
     position: relative;
     margin-bottom: 45px;
-    padding: 90px 0;
+    padding: 50px 0;
     text-align: center;
     background: #202C45;
-    border-top: 1px dotted #ffffff;
 }
 
 .page-header h2 {
@@ -534,9 +550,9 @@ a:focus {
 .page-header h2::after {
     position: absolute;
     content: "";
-    width: 100px;
+    width: 200px;
     height: 2px;
-    left: calc(50% - 50px);
+    left: calc(50% - 100px);
     bottom: 0;
     background: #ffffff;
 }
@@ -1375,7 +1391,12 @@ a:focus {
     border: none;
     border-radius: 60px;
     box-shadow: inset 0 0 0 0 #202C45;
+    transition: ease-out 0.5s;
+    -webkit-transition: ease-out 0.5s;
+    -moz-transition: ease-out 0.5s;
 }
+
+
 
 .modalBtn:hover {
     color: #E81C2E;

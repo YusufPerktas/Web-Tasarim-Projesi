@@ -130,7 +130,7 @@
     // Modal Form
     document.addEventListener('DOMContentLoaded', function() {
         // Tüm modal butonlarını seç
-        var modalBtns = document.querySelectorAll('.modalBtn');
+        var modalBtns = document.querySelectorAll('.btn.btn-custom.btnblog');
         modalBtns.forEach(function(btn) {
             btn.addEventListener('click', function() {
                 var modalId = this.id.replace('modal-ac-', 'modal-');
